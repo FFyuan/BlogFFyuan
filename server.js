@@ -4,9 +4,7 @@
 
 
 var http = require("http"),
-    url = require("url"),
-    formidable = require("formidable"),
-    sys = require("sys");
+    url = require("url");
 
 function start(route, handle) {
     function onRequest(request, response) {
